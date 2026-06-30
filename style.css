@@ -1,0 +1,170 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #4f46e5, #06b6d4);
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+    border-bottom: 4px solid #3b82f6;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Postagens */
+.post {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    margin-bottom: 2rem;
+}
+
+.post-title {
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+}
+
+.post-meta {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-bottom: 1.5rem;
+}
+
+.post-content p {
+    margin-bottom: 1rem;
+}
+
+/* Botões de Reação */
+.post-reactions {
+    display: flex;
+    gap: 1rem;
+    margin: 1.5rem 0;
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 0.75rem 0;
+}
+
+.btn-reaction {
+    background: #f1f5f9;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 0.9rem;
+    color: #475569;
+}
+
+.btn-reaction:hover {
+    background: #e2e8f0;
+}
+
+.btn-reaction.active-like {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.btn-reaction.active-dislike {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+/* Seção de Comentários */
+.comments-section {
+    background: #f8fafc;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+
+.comments-section h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #334155;
+}
+
+.comments-list {
+    margin-bottom: 1.5rem;
+}
+
+.comment-item {
+    background: white;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    margin-bottom: 0.75rem;
+    border-left: 4px solid #4f46e5;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+}
+
+.comment-item .author {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #1e293b;
+}
+
+.comment-item .text {
+    font-size: 0.95rem;
+    color: #475569;
+    margin-top: 0.25rem;
+}
+
+/* Formulário de Comentário */
+.comment-form input,
+.comment-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.comment-form textarea {
+    resize: vertical;
+}
+
+.comment-form button {
+    background: #4f46e5;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.comment-form button:hover {
+    background: #4338ca;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    color: #64748b;
+    font-size: 0.9rem;
+}
