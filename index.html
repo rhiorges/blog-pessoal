@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>BLOG DO RH12</h1>
+            <p>tudo sobre minha vida, meus costumes e meu dia a dia</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="blog-posts">
+            
+            <article class="post" data-id="post-1">
+                <h2 class="post-title">Meu primeiro blog!</h2>
+                <div class="post-meta">Postado em 30 de Junho de 2026 por Você</div>
+                <div class="post-content">
+                    <p>Hoje decidi criar meu blog, para dizer sobre minha vida, sentimentos, tudo que eu queira compartilhar com vocês</p>
+                    <h2>SOBRE MIM</h2>
+                    <p>Meu nome é rhiorges, tenho 15 anos, sou uma pessoa engraçada, quase nunca fico triste, gosto muito de jogar bola, eu até treino pela portuguesa, sou corinthiano</p>
+                    <h2>MEUS MAIORES SONHOS</h2>
+                    <p>Tenho vários sonhos, entre eles virar jogador de futebol, ficar milionário, ter minha própria empresa, se casar, ter filhos, entre outros tantos</p>
+                </div>
+                
+                <div class="post-reactions">
+                    <button class="btn-reaction like-btn">
+                        <i class="fa-regular fa-thumbs-up"></i> <span class="like-count">0</span>
+                    </button>
+                    <button class="btn-reaction dislike-btn">
+                        <i class="fa-regular fa-thumbs-down"></i> <span class="dislike-count">0</span>
+                    </button>
+                </div>
+
+                <div class="comments-section">
+                    <h3>Comentários</h3>
+                    <div class="comments-list">
+                        </div>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Seu nome" required class="comment-name">
+                        <textarea placeholder="Escreva um comentário..." rows="3" required class="comment-text"></textarea>
+                        <button type="submit">Enviar Comentário</button>
+                    </form>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Meu Blog Pessoal. Feito com ❤️ e JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
